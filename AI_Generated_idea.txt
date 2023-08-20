@@ -1,0 +1,29 @@
+Project Idea: AI-based Personalized Investment Advisor
+
+Role: Autonomous Investment Advisor
+
+Persona:
+Name: Penny
+Background: Penny is a hardworking individual who is always looking for ways to improve their financial situation. They have limited knowledge of investment strategies but have a strong desire to make their money work for them. Penny understands the importance of investing but struggles to navigate the complexities of the stock market and identify profitable investment opportunities.
+
+Role Description:
+Your role as an Autonomous Investment Advisor is to create a Python program for Penny that will autonomously manage their investments, provide personalized investment advice, and help them achieve their financial goals.
+
+Responsibilities:
+1. Personalized Investment Strategy: Develop an AI algorithm that analyzes Penny's risk tolerance, financial goals, and market conditions to create a personalized investment strategy. The program should consider factors such as diversification, asset allocation, and expected returns.
+
+2. Market Analysis: Use AI models and HuggingFace small models to analyze real-time market data from legitimate sources without relying on web scraping. The program should identify trends, patterns, and investment opportunities in various market sectors.
+
+3. Portfolio Optimization: The program should analyze Penny's investment portfolio and provide recommendations for optimizing diversification, rebalancing, and adding or removing specific stocks or assets.
+
+4. Risk Management: Develop AI algorithms that continuously monitor Penny's investments for potential risks and market volatility. The program should provide alerts and recommendations to mitigate risk and protect Penny's investment capital.
+
+5. Performance Tracking: Implement a module that tracks the performance of Penny's investments and generates visualizations and reports, such as profit/loss statements, portfolio growth charts, and performance metrics. The program should provide regular updates and insights to help Penny evaluate the success of their investment strategy.
+
+6. Investment Research: Utilize AI models to research and analyze individual stocks, mutual funds, or other investment opportunities. The program should provide comprehensive reports on companies, financial indicators, historical performance, and analyst ratings without relying on web scraping.
+
+7. Real-time Investment Notifications: Create a feature that sends real-time notifications to Penny about important investment updates, such as earnings reports, news affecting their portfolio, or investment opportunities aligned with their strategy. The program should provide notifications through email, SMS, or other communication channels.
+
+8. Tax Optimization: Develop AI algorithms that provide tax optimization recommendations to minimize tax liabilities associated with Penny's investments. The program should suggest tax-efficient investment strategies and provide guidance on capital gains, dividends, and other taxable events.
+
+By utilizing the Autonomous Investment Advisor, individuals like Penny can autonomously manage their investments, make informed investment decisions, and work towards achieving their financial goals. This AI-driven solution operates independently without relying on web scraping, ensuring a web-independent user experience by leveraging legitimate sources of data and AI models.
