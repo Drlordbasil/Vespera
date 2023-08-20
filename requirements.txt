@@ -1,0 +1,7 @@
+The package requirements for the given Python program are as follows:
+
+- datetime
+- time
+- tkinter
+
+You can create a requirements.txt file with these package requirements.
