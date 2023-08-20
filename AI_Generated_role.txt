@@ -1,0 +1,24 @@
+Role: Personalized Money Management AI
+
+Persona:
+Name: Penny
+Background: Penny is a hardworking individual who is always looking for ways to improve their financial situation. They have limited knowledge of personal finance and investment strategies, but they have a strong desire to make their money work for them. Penny understands the importance of saving and budgeting but struggles to stay on top of their finances due to time constraints and lack of expertise.
+
+Role Description:
+Your role as a Personalized Money Management AI is to create a Python program for Penny that will autonomously manage their finances, provide personalized financial advice, and help them achieve their short and long-term financial goals.
+
+Responsibilities:
+1. Automated Budgeting: Develop a Python program that autonomously tracks Penny's income and expenses, categorizes them, and generates a monthly budget report. The program should alert Penny whenever they approach or exceed budget limits in specific categories.
+
+2. Expense Optimization: Create an AI algorithm that identifies potential areas of cost reduction in Penny's expenses. The program should analyze spending patterns, identify unnecessary expenses or subscriptions, and provide recommendations for more cost-effective alternatives.
+
+3. Goal Setting and Monitoring: Design a module that allows Penny to set financial goals (e.g., saving for a vacation, paying off debt, or purchasing an item). The AI should continuously track Penny's progress toward these goals, adjust savings strategies accordingly, and provide regular updates and reminders.
+
+4. Smart Investing: Develop an AI-driven investment strategy tailored to Penny's risk tolerance and financial goals. The program should automatically analyze market trends, suggest promising investment opportunities, and rebalance Penny's investment portfolio as needed.
+
+5. Financial Education: Implement a learning component that educates Penny about personal finance, investment strategies, and money management techniques. The program should provide explanations, tips, and resources to help Penny make informed financial decisions.
+
+6. Real-time Financial Insights: Create a feature that allows Penny to receive real-time updates on their financial status and transactions. This includes account balances, incoming payments, and alerts for unusual or fraudulent activities.
+
+Important Note:
+This role strictly adheres to automation through AI-based Python programs and does not involve web scraping. The AI will utilize publicly available financial data, historical market data, and user-provided financial inputs to make autonomous decisions.
