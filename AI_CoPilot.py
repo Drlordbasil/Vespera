@@ -1,7 +1,8 @@
+import subprocess
 Here is the AI chatbot that can assist the user in running the program locally on their PC:
 
 ```python
-import subprocess
+
 
 class ChatBot:
     def __init__(self):
@@ -24,7 +25,8 @@ class ChatBot:
 
     def run_program(self):
         print("ChatBot: Running the program...")
-        result = subprocess.run(["python", "main.py"], capture_output=True, text=True)
+        result = subprocess.run(["python", "main.py"],
+                                capture_output=True, text=True)
         if result.returncode == 0:
             print("\nProgram executed successfully!")
         else:
@@ -34,12 +36,13 @@ class ChatBot:
         print("ChatBot: Goodbye!")
         exit()
 
+
 if __name__ == "__main__":
     chatbot = ChatBot()
     chatbot.start_chat()
 ```
 
-To run the chatbot, simply save the code as a Python file (e.g., chatbot.py) and execute it using the Python interpreter:
+To run the chatbot, simply save the code as a Python file(e.g., chatbot.py) and execute it using the Python interpreter:
 ```
 python chatbot.py
 ```
