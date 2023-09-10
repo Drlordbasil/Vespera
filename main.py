@@ -79,7 +79,8 @@ class Program:
 
     def display_results(self, results: Union[str, int]) -> None:
         self.data_visualization.visualize_results(results)
-        self.data_visualization.root.after(5000, self.data_visualization.close_window)
+        self.data_visualization.root.after(
+            5000, self.data_visualization.close_window)
 
 
 class ClassBasedOnContext:
