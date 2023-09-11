@@ -15,19 +15,19 @@ class ChatBot:
             self.process_input(user_input.lower())
 
     def process_input(self, user_input):
-        if user_input in self.commands:
-            self.commands[user_input]()
-        else:
+        if user_input not in self.commands:
             print("ChatBot: Sorry, I didn't understand that. Please try again.")
+            return
+        self.commands[user_input]()
 
     def run_program(self):
         print("ChatBot: Running the program...")
-        result = subprocess.run(["python", "main.py"],
-                                capture_output=True, text=True)
-        if result.returncode == 0:
+        try:
+            result = subprocess.run(["python", "main.py"],
+                                    capture_output=True, text=True, check=True)
             print("\nProgram executed successfully!")
-        else:
-            print(f"\nError executing program:\n{result.stderr}")
+        except subprocess.CalledProcessError as e:
+            print(f"\nError executing program:\n{e.stderr}")
 
     def exit_chatbot(self):
         print("ChatBot: Goodbye!")
