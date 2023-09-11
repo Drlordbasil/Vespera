@@ -1,7 +1,4 @@
 import subprocess
-Here is the optimized version of the Python script:
-
-```python
 
 
 class ChatBot:
@@ -40,12 +37,3 @@ class ChatBot:
 if __name__ == "__main__":
     chatbot = ChatBot()
     chatbot.start_chat()
-```
-
-To run the chatbot, simply save the code as a Python file(e.g., chatbot.py) and execute it using the Python interpreter:
-
-```
-python chatbot.py
-```
-
-The chatbot's script is already well-structured and optimized for readability. It utilizes subprocess module to execute the main.py script and handles the output accordingly. The commands are stored in a dictionary for easy lookup and the chatbot provides a user-friendly interface. No further optimizations are required.
