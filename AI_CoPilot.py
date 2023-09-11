@@ -1,5 +1,5 @@
 import subprocess
-Here is the AI chatbot that can assist the user in running the program locally on their PC:
+Here is the optimized version of the Python script:
 
 ```python
 
@@ -43,8 +43,9 @@ if __name__ == "__main__":
 ```
 
 To run the chatbot, simply save the code as a Python file(e.g., chatbot.py) and execute it using the Python interpreter:
+
 ```
 python chatbot.py
 ```
 
-The chatbot will start and provide instructions on how to interact with it. When the user asks to run the program, the chatbot will execute the main.py script using the subprocess module. After execution, it will display whether the program executed successfully or encountered any errors. The user can also exit the chatbot by typing "exit".
+The chatbot's script is already well-structured and optimized for readability. It utilizes subprocess module to execute the main.py script and handles the output accordingly. The commands are stored in a dictionary for easy lookup and the chatbot provides a user-friendly interface. No further optimizations are required.
